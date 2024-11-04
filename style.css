@@ -1,0 +1,43 @@
+#container {
+    display: grid;
+    gap: 0; /* No gap to make it look like a tight puzzle */
+    height: 300px;
+    width: 400px;
+    /* margin-left: 720px; */
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #333; /* Border around each piece */
+    padding: 30px;
+}
+.alligining-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label1{
+    font-size: 23px;
+}
+
+#select1{
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 20px;
+}
+
+#secondary-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#select2{
+    margin-left: 12px;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
